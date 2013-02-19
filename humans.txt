@@ -1,0 +1,11 @@
+                            
+/* TEAM */
+  Norman Cossio
+  Web Designer and Developer                          
+  Twitter: @normanbox                          
+  Location: La Paz, México.
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery,  
+  Software: Sublime Text

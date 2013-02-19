@@ -1,0 +1,170 @@
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+body {
+	background:  #f5f5f5 url(../images/layout/body-pattern.png);
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 14px
+}
+
+.header-page {
+	height: 120px;
+}
+
+.brand {
+	position:  relative;
+	top: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans';
+	font-weight: 300
+}
+
+h1 {
+	color: #bd0002;
+	font-weight: 300;
+	font-size: 2.8em
+	
+}
+
+
+h2 {
+	color: #666;
+	font-weight:300;
+	font-size: 2.2em
+}
+
+a {
+	color: #dd0000
+}
+
+a:hover {
+	color: #ee0000
+}
+
+section {
+	padding: 40px 0
+}
+
+
+/* -----------------------------------------
+   Header
+----------------------------------------- */
+
+.email-link {
+	top: 62px;
+	float: right;
+	margin-right: 50px;
+}
+
+
+/* -----------------------------------------
+   Homepage Slideshow
+----------------------------------------- */
+
+.slideshow {
+	background-color: #bf0004;
+	box-shadow: inset 0 0 30px #000;	 
+	padding: 25px 0;
+}
+
+.slideshow .bg-container { 
+	background: transparent url(../images/layout/slide-bg-sz.jpg) no-repeat top center;
+	background-size: 100% 100%;	
+}
+
+.slide-content {
+	max-width: 1020px;
+	margin: 0 auto
+}
+
+
+/* -----------------------------------------
+   Portfolio
+----------------------------------------- */
+
+.portfolio h3 {
+	margin-bottom: 5px
+}
+
+.portfolio .type {
+	color: #999;
+}
+
+
+/* -----------------------------------------
+   The team members
+----------------------------------------- */
+
+.the-team h3 {
+	color: #c8c8c8;
+	font-size: 22px;
+	padding-top: 25px
+}
+
+.the-team ul {
+	margin: 0;
+	list-style: none;
+}
+
+.the-team ul li {
+	overflow: hidden;
+	padding: 4px 0;
+	list-style: none;
+}
+
+.the-team .name {
+	font-size: 22px;
+}
+
+.the-team .position {
+	color: #909090;
+	font-size: 16px;
+}
+
+.the-team img {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	margin-top: 8px;
+}
+
+.the-team .info {
+	margin-left: 85px
+}
+
+
+
+/* -----------------------------------------
+   Footer
+----------------------------------------- */
+
+.footer-page {
+	background: #f5f5f5 url(../images/layout/footer-pattern.png);
+	background-repeat: repeat-x;
+	color: #550000;
+	text-shadow: 1px 1px 1px #ff0000;
+	min-height: 150px;
+	padding: 35px 0
+}
+
+.footer-page a {
+	color: #fff;
+}
+
